@@ -1,0 +1,282 @@
+h1 {
+    font-size: 155%;
+    color: rgb(121, 27, 139);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+h2 {
+    font-size: 30pt;
+    color: rgb(121, 27, 139);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+p {
+    font-size: 15pt;
+    color: rgb(121, 27, 139);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    letter-spacing: 0px;
+} 
+
+#start_p {
+    font-size: 15pt;
+    color: rgb(121, 27, 139);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+img {
+    width: 100%;
+    height: 180px;
+}
+
+#naruto {
+
+    width: 85%;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+}
+#narutomanga {
+
+  width: 60%;
+  height: 750px;
+  display: block;
+  margin: 0 auto;
+}
+#naruto2 {
+
+  width: 85%;
+  height: 600px;
+  display: block;
+  margin: 0 auto;
+}
+#mg {
+
+    width: 85%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+#ANIME {
+  width: 90%;
+  height: 550px;
+  display: block;
+  margin: 0 auto;
+  
+}
+#ANIME2 {
+  width: 80%;
+  height: 800px;
+  display: block;
+  margin: 0 auto;
+  
+}   
+iframe {
+  width: 90%;
+  height: 550px;
+  display: block;
+  margin: 0 auto;
+
+
+}
+
+
+body {
+  background-color: rgb(245, 245, 245);
+  background-image: url('naruto\ fon\ 3.jpg');
+  background-size: cover;
+}
+#body2 {
+  background-color: rgb(245, 245, 245);
+  background-image: url('naruto\ fon.jpg');
+  background-size: cover;
+}
+#body3 {
+  background-color: rgb(245, 245, 245);
+  background-image: url('anime\ fon.jpg');
+  background-size: cover;
+}
+
+#main {
+    background-color: rgb(255, 255, 255);
+    margin: 0px 200px 0px 200px;
+      
+}
+
+
+*{box-sizing: border-box;}
+body {
+  margin: 10;
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  background: #f7f5f5;
+  opacity: 0.7;
+  
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
+  
+}
+nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  transition: .3s linear;
+  
+}
+.topmenu > li {
+  float: left;
+  position: relative;
+  border-left: 1px solid black;
+}
+.topmenu > li:first-child {border-left: 0;}
+.topmenu > li > a {  
+  padding: 20px 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #FEFDFD;
+  letter-spacing: 2px;
+}
+.topmenu > li > a.active, 
+.submenu a:hover {color: #751375;}
+.topmenu .fa, 
+.submenu .fa {
+  margin-left: 5px;
+  color: inherit;
+}
+.submenu {
+  position: absolute;
+  z-index: 5;
+  min-width: 200px;
+  background: white;
+  border-top: 1px solid #CBCBCC;
+  border-left: 1px solid #CBCBCC;
+  border-right: 1px solid #CBCBCC;
+  visibility: hidden;
+
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  transition: .3s linear; 
+}
+.submenu li {position: relative;}
+.submenu li a {
+  color: #282828;
+  padding: 10px 20px;
+  font-size: 13px;
+  border-bottom: 1px solid #CBCBCC;
+}
+.submenu .submenu {
+  position: absolute;
+  left: 100%;
+  top: -1px;
+  transition: .3s linear;
+}
+nav li:hover > .submenu {
+  transform: rotateX(0deg);
+  visibility: visible;
+  opacity: 1;
+}
+.double-btn {
+  position: relative;
+  display: inline-block;
+  padding: 10px 10px;
+  margin-right: 10px;
+  
+  text-decoration: none;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #750775;
+  text-shadow: -1px -1px #750775;
+  background: #F17555;
+  transition: .3s;
+  opacity: 1;
+}
+.double-btn:hover {
+  text-shadow: none;
+}
+.double-btn:after {
+  content: "";
+  position: absolute;
+  height: 105%;
+  width: 105%;
+  z-index: -1;
+  left: -1px;
+  top: -1px;
+  background: #980ca5;
+  transform: skewY(2deg);
+  transition: .3s;
+
+}
+.double-btn:hover:after {
+  transform: none;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.rectangle {
+  counter-reset: li; 
+  list-style: none; 
+  font: 15px "Trebuchet MS", "Lucida Sans";
+  padding: 0;
+  text-shadow: 0 1px 0 rgba(141, 25, 112, 0.5);
+  }
+  .rectangle a {
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em .8em;
+  margin: .5em 0 .5em 2.5em;
+  background: #e6e5e3;
+  color: rgb(166, 71, 175);
+  text-decoration: none;
+  transition: all .3s ease-out;
+  }
+  .rectangle a:hover {background: #af43e0;}       
+  .rectangle a:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -2.5em;
+  top: 50%;
+  margin-top: -1em;
+  background: #4b016d;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  font-weight: bold;
+  }
+  .rectangle a:after {
+  position: absolute;
+  content: "";
+  border: .5em solid transparent;
+  left: -1em;
+  top: 50%;
+  margin-top: -.5em;
+  transition: all .3s ease-out;
+  }
+  .rectangle a:hover:after {
+  left: -.5em;
+  border-left-color: #000000;
+  }
