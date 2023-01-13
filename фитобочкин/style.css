@@ -1,0 +1,428 @@
+body {
+    background-color: rgb(245, 245, 245);
+    
+    background-size: cover;
+  }
+
+
+#main2 {
+  background-color: rgb(245, 245, 245);
+  background-image: url('доски\ на\ фон.jpg');
+  
+  background-size: cover;
+}
+
+#main {
+  
+  background-image: url('фон\ бани1.png');
+  
+  background-size: cover;
+}
+
+
+
+#main3{
+  
+  background-image: url('фффффф.png');
+  
+  background-size: cover;
+}
+
+
+#main4{
+  
+  background-image: url('фитт.jpg');
+  
+  background-size: cover;
+}
+
+
+
+#main5{
+  
+  background-image: url('фон\ бани3.jpg');
+  
+  background-size: cover;
+}
+
+
+
+
+#bigimg {
+    width: 90%;
+    height: 50%;
+    display: block;
+    margin: 0 auto; 
+    
+    
+}
+
+
+
+#smolimg {
+  width: 25%;
+  height: 15%;
+  display: block;
+  margin: 0 auto; 
+  float:right; /* Выравнивание по левому краю */
+  margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+  
+  
+}
+
+
+
+p {
+    font-size: 30pt;
+    color: rgb(196, 196, 196);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding: 5%;
+  }
+
+
+
+  #p2 {
+    font-size: 30pt;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding: 5%;
+  }
+
+
+
+
+  #p3 {
+    font-size: 50pt;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    letter-spacing: 1px;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding: 5%;
+  }
+
+
+
+
+  #p4 {
+    font-size: 50pt;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding: 5%;
+  }
+
+
+
+
+
+
+
+
+  h1 {
+    font-size: 255%;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+.topmenu {
+  background-image: url('фитт.jpg');
+}
+
+.topmenu a {
+  text-decoration: none;
+  display: block;
+  transition: .4s ease-in-out;
+}
+
+.topmenu>li>a {
+  padding: 10px;
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+.topmenu li a:hover {
+  color: #d7d7d7;
+}
+
+.submenu li a {
+  border-bottom: 1px solid #0e0e0e;
+  font-size: 12px;
+  color: #484848;
+  font-family: 'Kurale', serif;
+}
+
+@media(max-width: 599px) {
+  .topmenu>li>a {
+     padding: 15px 20px;
+  }
+  .submenu li a {
+     padding: 10px 20px;
+     margin: 0 20px;
+  }
+}
+
+@media(min-width: 600px) {
+  .topmenu {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+  }
+  .topmenu>li {
+     position: relative;
+  }
+ 
+  .topmenu>li:last-child:after {
+     background: none;
+     box-shadow: none;
+  }
+  .submenu {
+     position: absolute;
+     left: 50%;
+     top: 100%;
+     width: 210px;
+     margin-left: -105px;
+     background: #fafafa;
+     border: 1px solid #ededed;
+     z-index: 5;
+     visibility: hidden;
+     opacity: 0;
+     transform: scale(.8);
+     transition: .4s ease-in-out;
+  }
+  .topmenu>li:hover .submenu {
+     visibility: visible;
+     opacity: 1;
+     transform: scale(1);
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
